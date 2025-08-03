@@ -32,7 +32,7 @@ composer install
 # Применяем миграции
 ./vendor/bin/sail artisan migrate
 
-# (Опционально) Сидируем данные
+# (Опционально, так как в тестах есть условие генерации) Генерируем данные сидером
 ./vendor/bin/sailartisan db:seed
 
 # Запускаем тесты
